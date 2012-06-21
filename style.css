@@ -149,9 +149,9 @@ blockquote {
 }
 #comments-template #comments,
 #comments-template #postcomment {
-    font-size: 1.3em;
+    font-family: Georgia, serif;
+    font-size: 1.2em;
     font-style: italic;
-    font-weight: normal;
 }
 #commentlist {
     list-style-type: none;
@@ -159,7 +159,7 @@ blockquote {
 }
 #commentlist .comment,
 #commentlist .pingback {
-    padding: 20px 0 0 80px;
+    padding: 20px 0 0 70px;
     border-bottom: 1px solid #ddd;
 }
 #commentlist .pingback {
