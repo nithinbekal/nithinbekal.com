@@ -1,0 +1,211 @@
+/*
+Theme Name: doodles-2
+Theme URI: http://nithinbekal.com/
+Description: Simple theme.
+Author: Nithin Bekal
+Template: doodles2
+Version: 0.9.0
+Tags: light, white
+
+Released under the <a href="http://www.opensource.org/licenses/gpl-license.php">GPL</a>.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header, footer, section, article, nav { display: block; }
+p { margin: 1.3em 0; }
+
+/* Wordpress default classes */
+
+.alignleft {
+    float: left;
+}
+.alignright {
+    float: right;
+}
+.aligncenter {
+    text-align: center;
+}
+
+/* Theme styling */
+
+#wrapper {
+    color: #444;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    margin: 20px auto;
+    width: 700px;
+}
+a { color: #666; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.post, #header { border-bottom: 1px solid #ddd; }
+
+pre {
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    font-family: Consolas, monospace;
+    font-size: 13px;
+    line-height: 1.6em;
+    margin: 1em;
+    overflow-x: auto;
+    padding: 1em;
+}
+blockquote {
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    border-left: 5px solid #e8e8e8;
+    font-family: Georgia, serif;
+    font-size: 1.1em;
+    font-style: italic;
+    padding: 0 20px;
+    margin: 20px;
+}
+
+/* Header */
+
+#header { 
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+#header .title { 
+    float: left; 
+    padding: 10px 0 0 0; 
+    width: 250px; 
+}
+#header .title a {
+    color: #333;
+    font-family: Lobster, Georgia, serif;
+}
+#header nav { float: right; }
+#header nav ul {
+    float: right;
+    font-size: 0.9em;
+    list-style-type: none;
+    font-variant: small-caps;
+}
+#header nav ul li {
+    display: block;
+    float: left;
+    padding: 10px;
+}
+#searchform {
+    display: block;
+    float: right;
+    margin: 8px;
+}
+#s { color: #ccc; }
+#s:focus { color: #444; }
+
+/* Posts */
+
+.post { 
+    padding: 20px 0; 
+}
+.post header { font-style: italic; }
+.post header h3 { 
+    font-size: 1.3em;
+    font-weight: normal; 
+    padding: 5px 0;
+}
+.post header h3 a {
+    color: #3e3e3e;
+    font-family: Georgia, serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+.post-meta {
+    color: #aaa;
+    font-size: 0.7em;
+    font-style: italic;
+    line-height: 1.3em;
+    margin: 10px 0 0 0;
+}
+
+/* Page navigation */
+
+.page-navigation {
+    font-size: 0.9em;
+    font-style: italic;
+    line-height: 1.2em;
+    overflow: hidden;
+    padding: 20px 0;
+}
+.page-navigation div {
+    float: left;
+    width: 50%;
+}
+.page-navigation .left { text-align: left; }
+.page-navigation .right { text-align: right; }
+
+/* Comments */
+
+#comments-template {
+    border-top: 1px solid #ddd;
+    line-height: 1.3em;
+    padding: 20px 0 0 0;
+}
+#comments-template #comments,
+#comments-template #postcomment {
+    font-size: 1.3em;
+    font-style: italic;
+    font-weight: normal;
+}
+#commentlist {
+    list-style-type: none;
+    margin: 10px 0 30px 0;
+}
+#commentlist .comment,
+#commentlist .pingback {
+    padding: 20px 0 0 80px;
+    border-bottom: 1px solid #ddd;
+}
+#commentlist .pingback {
+    color: #999;
+    font-size: 0.8em;
+    line-height: 1.3em;
+    padding-left: 20px;
+}
+#commentlist .comment header {
+    color: #aaa;
+    font-size: 0.7em;
+}
+#commentlist .comment header .comment-author {
+    color: #888;
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#commentlist .comment .comment-text {
+    font-size: 0.9em;
+    position: relative;
+}
+#commentlist li.comment-author-admin .comment-text {
+    color: red;
+}
+#commentlist .comment .comment-text .avatar {
+    position: absolute; top: -50px; left: -70px;
+    border-radius: 50px;
+}
+#commentform input,
+#commentform textarea {
+    margin: 0 20px 0 0;
+    padding: 0.3em;
+}
+#commentform textarea {
+    width: 70%;
+}
+#commentform label {
+    font-style: italic;
+}
+
+/* Footer */
+
+.blog-footer {
+    font-size: 0.8em;
+    font-style: italic;
+    padding: 20px;
+    text-align: center;
+}
