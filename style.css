@@ -178,7 +178,7 @@ blockquote {
     position: relative;
 }
 #commentlist li.comment-author-admin .comment-text {
-    color: red;
+    color: #000;
 }
 #commentlist .comment .comment-text .avatar {
     position: absolute; top: -50px; left: -70px;
