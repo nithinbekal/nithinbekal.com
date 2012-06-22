@@ -1,7 +1,7 @@
 <?php
 /**
  * @package WordPress
- * @subpackage wp_monochrome
+ * @subpackage nithinbekal
  */
 
 get_header(); ?>

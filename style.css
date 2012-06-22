@@ -101,20 +101,15 @@ blockquote {
 
 /* Posts */
 
-.post { 
-    padding: 20px 0; 
-}
-.post header { font-style: italic; }
-.post header h3 { 
-    font-size: 1.3em;
-    font-weight: normal; 
-    padding: 5px 0;
-}
-.post header h3 a {
+.post, .page { padding: 20px 0; }
+.post header, .page header { font-style: italic; }
+.post header h3 a,
+.page header h3 a {
     color: #3e3e3e;
     font-family: Georgia, serif;
     font-size: 19px;
     font-weight: bold;
+    padding: 5px 0;
 }
 .post-meta {
     color: #aaa;
