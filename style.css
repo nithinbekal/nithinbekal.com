@@ -85,6 +85,7 @@ blockquote {
 #header .title a {
     color: #333;
     font-family: Lobster, Georgia, serif;
+    font-style: normal;
 }
 #header nav { float: right; }
 #header nav ul {
