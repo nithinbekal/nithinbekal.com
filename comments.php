@@ -84,7 +84,7 @@
 <?php endif; ?>
 
 <p id="comments-feed-link-trackback">
-  <?php post_comments_feed_link(__('<abbr title="Really Simple Syndication">RSS</abbr> feed for comments on this post.')); ?>
+  <?php post_comments_feed_link(__('<abbr title="Really Simple Syndication">RSS</abbr> feed for comments on this post.')); ?> |
   <?php if ( pings_open() ) : ?>
     <a href="<?php trackback_url() ?>" rel="trackback"><?php _e('TrackBack <abbr title="Universal Resource Locator">URL</abbr>'); ?></a>
   <?php endif; ?>

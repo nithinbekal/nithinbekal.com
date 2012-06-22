@@ -15,7 +15,6 @@ Released under the <a href="http://www.opensource.org/licenses/gpl-license.php">
     padding: 0;
 }
 header, footer, section, article, nav { display: block; }
-p { margin: 1.3em 0; }
 
 /* Wordpress default classes */
 
@@ -39,10 +38,16 @@ p { margin: 1.3em 0; }
     margin: 20px auto;
     width: 700px;
 }
-a { color: #666; }
+p       { margin: 1.3em 0; }
+a       { color: #666; }
 a:hover { color: #222; text-decoration: underline; }
-ul { margin: 0 0 20px 40px; }
-h1 a, h3 a { text-decoration: none; }
+ul      { margin: 0 0 20px 40px; }
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+h1 a, 
+h3 a    { text-decoration: none; }
+
 .post, #header { border-bottom: 1px solid #ddd; }
 
 pre {
@@ -107,7 +112,6 @@ blockquote {
 .post header h3 a,
 .page header h3 a {
     color: #3e3e3e;
-    font-family: Georgia, serif;
     font-size: 19px;
     font-weight: bold;
     padding: 5px 0;
@@ -203,7 +207,7 @@ blockquote {
     padding: 7px;
 }
 #commentform #submit:hover { background: #eee; }
-
+#comments-feed-link-trackback { font-size: 0.8em }
 /* Footer */
 
 .blog-footer {
