@@ -37,12 +37,11 @@ get_header(); ?>
           <nav class="page-navigation">
             <div class="left"><?php next_posts_link('&laquo; Older Entries') ?></div>
             <div class="right"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
-          </ul>
           </nav>
 
         <?php else: ?>
     
-          <p>Uh-oh! We couldn't find any posts matching that description in our database. Why do't you try searching for it?</p>
+          <p>Uh-oh! There are no posts matching that description. Why don't you try searching for it?</p>
           
           <section id="search-404">
             <form id="searchform-404" method="get" action="<?php bloginfo('home'); ?>">
