@@ -42,6 +42,7 @@ p { margin: 1.3em 0; }
 a { color: #666; }
 a:hover { color: #222; text-decoration: underline; }
 ul { margin: 0 0 20px 40px; }
+h1 a, h3 a { text-decoration: none; }
 .post, #header { border-bottom: 1px solid #ddd; }
 
 pre {
