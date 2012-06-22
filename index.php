@@ -37,7 +37,6 @@ get_header(); ?>
           <nav class="page-navigation">
             <div class="left"><?php next_posts_link('&laquo; Older Entries') ?></div>
             <div class="right"><?php previous_posts_link('Newer Entries &raquo;') ?></div>
-          </ul>
           </nav>
 
         <?php else: ?>
