@@ -50,7 +50,7 @@
         </form>
         
         <ul>
-          <li><a href="http://nithinbekal.com/about">About</a></li>
+          <li><a href="<?php echo(get_page_link(get_page_by_path('about')->ID)); ?>">About</a></li>
           <li><a href="http://github.com/nithinbekal">Code</a></li>
           <li><a href="http://twitter.com/nithinbekal">Twitter</a></li>
         </ul>
