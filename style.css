@@ -44,6 +44,7 @@ a:hover { color: #222; text-decoration: underline; }
 ul      { margin: 0 0 20px 40px; }
 h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, serif;
+    font-style: italic;
 }
 h1 a, 
 h3 a    { text-decoration: none; }
@@ -112,7 +113,7 @@ blockquote {
 .post header h3 a,
 .page header h3 a {
     color: #3e3e3e;
-    font-size: 19px;
+    font-size: 1.2em;
     font-weight: bold;
     padding: 5px 0;
 }
