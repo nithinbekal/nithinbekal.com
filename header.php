@@ -35,6 +35,7 @@
     });
     /* ]]> */
   </script>
+  <?php get_template_part('analytics'); ?>
 </head>
 
 <body <?php body_class(); ?>>
