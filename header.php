@@ -49,7 +49,6 @@
         </form>
         
         <ul>
-          <li><a href="http://nithinbekal.com/">Home</a></li>
           <li><a href="http://nithinbekal.com/about">About</a></li>
           <li><a href="http://github.com/nithinbekal">Code</a></li>
           <li><a href="http://twitter.com/nithinbekal">Twitter</a></li>
