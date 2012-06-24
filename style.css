@@ -36,7 +36,6 @@ h1, h2, h3, h4, h5, h6 {
 p       { margin: 1.3em 0; }
 a       { color: #666; }
 a:hover { color: #222; text-decoration: underline; }
-ul      { margin: 0 0 20px 40px; }
 h1 a, h3 a { text-decoration: none; }
 .post, #header { border-bottom: 1px solid #ddd; }
 
@@ -63,7 +62,10 @@ blockquote {
 
 /* Header */
 
-#header { overflow: hidden; }
+#header { 
+    overflow: hidden; 
+    padding-bottom: 20px;
+}
 #header .title { 
     float: left; 
     padding: 10px 0 0 0; 
@@ -217,4 +219,25 @@ body.search-no-results #posts, body.error404 #posts { padding: 30px 0; }
     font-style: italic;
     padding: 20px;
     text-align: center;
+}
+
+/* Responsive */
+
+@media all and (max-width: 840px) {
+    #wrapper { font-size: 17px; width: 90%; }
+    #header nav { display: none; }
+}
+
+@media all and (max-width: 640px) {
+    #wrapper { font-size: 16px; width: 92%; }
+}
+
+@media all and (max-width: 500px) {
+    #wrapper { font-size: 15px; width: 94%; }
+    #header nav { display: none; }
+}
+
+@media all and (max-width: 400px) {
+    #wrapper { font-size: 14px; width: 94%; }
+    #header nav { display: none; }
 }
