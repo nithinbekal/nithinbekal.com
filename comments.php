@@ -64,12 +64,17 @@
 
       <?php endif; ?>
 
-      <!--<p><small><strong>XHTML:</strong> <?php printf(__('You can use these tags: %s'), allowed_tags()); ?></small></p>-->
-
       <p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea></p>
 
-      <p><input name="submit" type="submit" id="submit" tabindex="5" value="<?php esc_attr_e('Submit Comment'); ?>" />
+      <p>
+        <input name="submit" type="submit" id="submit" tabindex="5" value="<?php esc_attr_e('Submit Comment'); ?>" />
         <input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
+        <span id="comments-feed-link-trackback">
+          <?php post_comments_feed_link(__('<abbr title="Really Simple Syndication">RSS</abbr> feed for comments on this post.')); ?> |
+          <?php if ( pings_open() ) : ?>
+            <a href="<?php trackback_url() ?>" rel="trackback"><?php _e('TrackBack <abbr title="Universal Resource Locator">URL</abbr>'); ?></a>
+          <?php endif; ?>
+        </span>
       </p>
       
       <?php do_action('comment_form', $post->ID); ?>
@@ -82,10 +87,3 @@
     <p><?php _e('Sorry, the comment form is closed at this time.'); ?></p>
     
 <?php endif; ?>
-
-<p id="comments-feed-link-trackback">
-  <?php post_comments_feed_link(__('<abbr title="Really Simple Syndication">RSS</abbr> feed for comments on this post.')); ?> |
-  <?php if ( pings_open() ) : ?>
-    <a href="<?php trackback_url() ?>" rel="trackback"><?php _e('TrackBack <abbr title="Universal Resource Locator">URL</abbr>'); ?></a>
-  <?php endif; ?>
-</p>

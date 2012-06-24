@@ -164,8 +164,10 @@ blockquote {
 #commentlist .comment .comment-text { font-size: 0.9em; position: relative; }
 #commentlist .comment-author-admin .comment-text { color: #000; }
 #commentlist .comment .comment-text .avatar {
-    position: absolute; top: -50px; left: -70px;
     border-radius: 50px;
+    left: -70px;
+    position: absolute; 
+    top: -50px; 
 }
 #commentform input,
 #commentform textarea {
@@ -194,7 +196,12 @@ blockquote {
     filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
 }
 #commentform #submit { padding: 5px 20px; }
-#comments-feed-link-trackback { font-size: 0.8em }
+#comments-feed-link-trackback { 
+    color: #aaa;
+    font-size: 0.7em;
+    font-style: italic;
+}
+#comments-feed-link-trackback a { color: #aaa; }
 
 /* 404 */
 
