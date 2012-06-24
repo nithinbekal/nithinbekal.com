@@ -205,7 +205,7 @@ blockquote {
 
 /* 404 */
 
-body.search #posts, body.error404 #posts { padding: 30px 0; }
+body.search-no-results #posts, body.error404 #posts { padding: 30px 0; }
 #searchform-404 { text-align: center; }
 #s-404 { padding: 3px; }
 
