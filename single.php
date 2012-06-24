@@ -16,7 +16,8 @@ get_header(); ?>
         <header>
           <h3><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
           <section class="post-meta">
-            <time><?php the_date(); ?></time> | <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?>
+            <time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('d M, Y'); ?></time> |
+            <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?>
           </section>
         </header>
         
