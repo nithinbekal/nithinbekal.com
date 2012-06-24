@@ -120,7 +120,7 @@ blockquote {
     font-style: italic;
     line-height: 1.2em;
     overflow: hidden;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 .page-navigation div { float: left; width: 50%; }
 .page-navigation .left { text-align: left; }
@@ -162,9 +162,7 @@ blockquote {
     font-weight: bold;
 }
 #commentlist .comment .comment-text { font-size: 0.9em; position: relative; }
-#commentlist .comment-author-admin .comment-text {
-    color: #000;
-}
+#commentlist .comment-author-admin .comment-text { color: #000; }
 #commentlist .comment .comment-text .avatar {
     position: absolute; top: -50px; left: -70px;
     border-radius: 50px;
@@ -176,14 +174,24 @@ blockquote {
 }
 #commentform textarea { width: 70%; }
 #commentform label { font-style: italic; }
-#commentform #submit {
+#submit {
     background: #f8f8f8;
     border: 1px solid #aaa;
     border-radius: 15px;
     padding: 7px;
 }
-#commentform #submit:hover { background: #eee; }
+#submit:hover { background: #eee; }
 #comments-feed-link-trackback { font-size: 0.8em }
+
+/* 404 */
+
+body.error404 #posts { padding: 30px 0; }
+#searchform-404 { text-align: center; }
+#searchform-404 #submit {
+    padding: 3px 10px;
+    margin: 0 0 0 10px;
+}
+
 /* Footer */
 
 .blog-footer {
