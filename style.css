@@ -182,9 +182,10 @@ blockquote {
     border: solid 1px #b7b7b7;
     border-radius: 8px;
     color: #666;
+    font-weight: bold;
     margin: 0 0 0 10px;
     padding: 5px 20px;
-    font-weight: bold;
+    /* Credits: http://webdesignerwall.com/tutorials/css3-gradient-buttons */
 }
 #submit:hover {
     background: #ededed;
