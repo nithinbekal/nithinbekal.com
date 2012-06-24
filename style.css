@@ -10,23 +10,14 @@ Tags: light, white
 Released under the <a href="http://www.opensource.org/licenses/gpl-license.php">GPL</a>.
 */
 
-* {
-    margin: 0;
-    padding: 0;
-}
+* { margin: 0; padding: 0; }
 header, footer, section, article, nav { display: block; }
 
 /* Wordpress default classes */
 
-.alignleft {
-    float: left;
-}
-.alignright {
-    float: right;
-}
-.aligncenter {
-    text-align: center;
-}
+.alignleft   { float: left; }
+.alignright  { float: right; }
+.aligncenter { text-align: center; }
 
 /* Theme styling */
 
@@ -38,17 +29,15 @@ header, footer, section, article, nav { display: block; }
     margin: 20px auto;
     width: 700px;
 }
-p       { margin: 1.3em 0; }
-a       { color: #666; }
-a:hover { color: #222; text-decoration: underline; }
-ul      { margin: 0 0 20px 40px; }
 h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, serif;
     font-style: italic;
 }
-h1 a, 
-h3 a    { text-decoration: none; }
-
+p       { margin: 1.3em 0; }
+a       { color: #666; }
+a:hover { color: #222; text-decoration: underline; }
+ul      { margin: 0 0 20px 40px; }
+h1 a, h3 a { text-decoration: none; }
 .post, #header { border-bottom: 1px solid #ddd; }
 
 pre {
@@ -74,9 +63,7 @@ blockquote {
 
 /* Header */
 
-#header { 
-    overflow: hidden;
-}
+#header { overflow: hidden; }
 #header .title { 
     float: left; 
     padding: 10px 0 0 0; 
@@ -104,7 +91,7 @@ blockquote {
     float: right;
     margin: 8px;
 }
-#s { color: #ccc; }
+#s       { color: #ccc; }
 #s:focus { color: #444; }
 
 /* Posts */
@@ -135,10 +122,7 @@ blockquote {
     overflow: hidden;
     padding: 20px 0;
 }
-.page-navigation div {
-    float: left;
-    width: 50%;
-}
+.page-navigation div { float: left; width: 50%; }
 .page-navigation .left { text-align: left; }
 .page-navigation .right { text-align: right; }
 
@@ -170,21 +154,15 @@ blockquote {
     line-height: 1.3em;
     padding-left: 20px;
 }
-#commentlist .comment header {
-    color: #aaa;
-    font-size: 0.7em;
-}
+#commentlist .comment header { color: #aaa; font-size: 0.7em; }
 #commentlist .comment header .comment-author {
     color: #888;
     font-family: Georgia, serif;
     font-size: 1.2em;
     font-weight: bold;
 }
-#commentlist .comment .comment-text {
-    font-size: 0.9em;
-    position: relative;
-}
-#commentlist li.comment-author-admin .comment-text {
+#commentlist .comment .comment-text { font-size: 0.9em; position: relative; }
+#commentlist .comment-author-admin .comment-text {
     color: #000;
 }
 #commentlist .comment .comment-text .avatar {
@@ -196,12 +174,8 @@ blockquote {
     margin: 0 20px 0 0;
     padding: 0.3em;
 }
-#commentform textarea {
-    width: 70%;
-}
-#commentform label {
-    font-style: italic;
-}
+#commentform textarea { width: 70%; }
+#commentform label { font-style: italic; }
 #commentform #submit {
     background: #f8f8f8;
     border: 1px solid #aaa;
