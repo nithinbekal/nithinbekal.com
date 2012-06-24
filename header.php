@@ -21,9 +21,9 @@
 
   <?php wp_enqueue_script('jquery'); ?>
 
-  <!--[if IE]>        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  <![endif]-->
-  <!--[if lte IE 7]>  <script src="js/IE8.js" type="text/javascript"></script>                    <![endif]-->
-  <!--[if lt IE 7]>   <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory'); ?>/css/ie6.css"/>     <![endif]-->
+  <!--[if IE]>        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>                                       <![endif]-->
+  <!--[if lte IE 8]>  <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js" type="text/javascript"></script>        <![endif]-->
+  <!--[if lt IE 7]>   <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory'); ?>/css/ie6.css"/> <![endif]-->
 
   <?php wp_head(); ?>
 
