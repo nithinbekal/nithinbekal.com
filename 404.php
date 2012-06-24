@@ -7,8 +7,7 @@
 get_header(); ?>
 
 		<section id="posts">
-			<p>Uh-oh! We couldn't find any posts matching that description in our database.
-            Why do't you try searching for it?</p>
+			<p>Uh-oh, the page you are looking for couldn't be found! Would you like to search for the content instead?</p>
 
 			<section id="search-404">
 				<form id="searchform-404" method="get" action="<?php bloginfo('home'); ?>">
@@ -17,13 +16,6 @@ get_header(); ?>
 				</form>
 			</section>
 
-			<p>Or, you might want to read some of our most commented articles:</p>
-
-			<section class="popular-posts">
-				<ul><?php echo popularPosts(5); ?></ul>
-			</section>
-
 	</section>
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

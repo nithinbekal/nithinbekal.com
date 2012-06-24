@@ -41,7 +41,7 @@ get_header(); ?>
 
         <?php else: ?>
     
-          <p>Uh-oh! There are no posts matching that description. Why don't you try searching for it?</p>
+          <p>Uh-oh, the page you are looking for couldn't be found! Would you like to search for the content instead?</p>
           
           <section id="search-404">
             <form id="searchform-404" method="get" action="<?php bloginfo('home'); ?>">
