@@ -96,8 +96,8 @@ blockquote {
 
 /* Posts */
 
-.post, .page { padding: 30px 0; }
-.post header, .page header { font-style: italic; }
+#posts .post, #posts .page { padding: 30px 0; }
+#posts .post header, #posts .page header { font-style: italic; }
 .post header h3 a,
 .page header h3 a {
     color: #3e3e3e;
