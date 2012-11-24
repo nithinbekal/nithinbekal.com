@@ -39,8 +39,6 @@
 
 <?php if ( comments_open() ) : ?>
 
-  <h2 id="postcomment"><?php _e('Leave a comment'); ?></h2>
-
   <?php if ( get_option('comment_registration') && !is_user_logged_in() ) : ?>
     <p><?php printf(__('You must be <a href="%s">logged in</a> to post a comment.'), wp_login_url( get_permalink() ) );?></p>
   <?php else : ?>
