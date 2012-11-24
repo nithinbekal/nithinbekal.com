@@ -119,6 +119,7 @@ blockquote {
 }
 .post-meta .social-share { float: right; margin-top: -5px; width: 250px; }
 .post-meta .social-share div { float: right; height: 25px; width: 100px; }
+.post-footer { margin-top: 1.5em; }
 
 /* Page navigation */
 
