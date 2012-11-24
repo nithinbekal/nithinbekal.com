@@ -27,6 +27,22 @@ get_header(); ?>
             </section>
             
             <footer class="post-meta">
+              <div class="social-share">
+                <div class="twitter-share">
+                  <a href="http://twitter.com/share" class="twitter-share-button"
+                    data-url="<?php the_permalink(); ?>"
+                    data-text="<?php the_title(); ?>"
+                    data-count="horizontal">Tweet</a>
+                </div>
+                <div class="facebook-share">
+                  <iframe src="http://www.facebook.com/plugins/like.php?href=<?php echo urlencode(get_permalink($post->ID)); ?>&amp;layout=button_count&amp;show_faces=false&amp;width=225&amp;action=like&amp;colorscheme=light"
+                          scrolling="no"
+                          frameborder="0"
+                          allowTransparency="true"
+                          style="border:none; overflow:hidden; width:225px; height:25px;">
+                  </iframe>
+                </div>
+              </div>
               <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?>
             </footer>
             

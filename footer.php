@@ -3,6 +3,7 @@
     </footer>
     
     <?php wp_footer(); ?>
+    <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
   </div>
 
 </body>
