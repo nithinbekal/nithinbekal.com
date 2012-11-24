@@ -6,7 +6,7 @@
 
 <h2 id="comments"><?php comments_number(__('No Comments'), __('1 Comment'), __('% Comments')); ?>
   <?php if ( comments_open() ) : ?>
-    <a href="#postcomment" title="<?php _e("Leave a comment"); ?>">&raquo;</a>
+    <a href="#commentform" title="<?php _e("Leave a comment"); ?>">&raquo;</a>
   <?php endif; ?>
 </h2>
 
