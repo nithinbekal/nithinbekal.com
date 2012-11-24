@@ -81,8 +81,9 @@ blockquote {
 #header nav ul {
     float: right;
     font-size: 0.9em;
-    list-style-type: none;
     font-variant: small-caps;
+    list-style-type: none;
+    margin: 0;
 }
 #header nav ul li {
     display: block;
