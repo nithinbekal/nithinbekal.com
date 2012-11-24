@@ -37,6 +37,7 @@ p       { margin: 1.3em 0; }
 a       { color: #666; }
 a:hover { color: #222; text-decoration: underline; }
 h1 a, h3 a { text-decoration: none; }
+ul { margin: 1em; }
 .post, #header { border-bottom: 1px solid #ddd; }
 
 pre {
