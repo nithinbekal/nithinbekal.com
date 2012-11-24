@@ -109,12 +109,13 @@ blockquote {
     font-weight: bold;
     padding: 5px 0;
 }
+.page header .post-meta { margin-top: 10px; }
 .post-meta {
     color: #aaa;
     font-size: 0.7em;
     font-style: italic;
     line-height: 1.3em;
-    margin: 10px 0 0 0;
+    margin: 25px 0 0 0;
 }
 .post-meta .social-share { float: right; margin-top: -5px; width: 250px; }
 .post-meta .social-share div { float: right; height: 25px; width: 100px; }
