@@ -114,6 +114,8 @@ blockquote {
     line-height: 1.3em;
     margin: 10px 0 0 0;
 }
+.post-meta .social-share { float: right; margin-top: -5px; width: 250px; }
+.post-meta .social-share div { float: right; height: 25px; width: 100px; }
 
 /* Page navigation */
 
