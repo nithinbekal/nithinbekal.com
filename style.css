@@ -109,7 +109,7 @@ blockquote {
     font-weight: bold;
     padding: 5px 0;
 }
-.page header .post-meta { margin-top: 10px; }
+.post header .post-meta { margin-top: 10px; }
 .post-meta {
     color: #aaa;
     font-size: 0.7em;
